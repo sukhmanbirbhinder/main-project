@@ -1,0 +1,267 @@
+/* ==== MOBILE-FIRST STYLES ==== */
+
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+hr {
+    color:black; 
+
+    background-color:black; 
+    height:2px;
+}
+
+
+h1, h2 {
+    padding-left: 10px;
+}
+
+
+header {
+    width: 100%;
+    background-color: #414040;
+}
+
+.star-img {
+    height: 80px;
+    width: auto;
+}
+
+.nav {
+
+    color: black;
+    float: center;
+    background-color: #414040;
+    width: 100%;
+    height: 450px;
+}
+
+.nav button {
+    display: block;
+    background-color: #414040;
+    color: rgb(221, 187, 62);
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+
+
+
+}
+
+.nav button:hover {
+    color: #191919;
+    background-color: rgb(221, 187, 62);
+}
+
+.nav input[type="text"] {
+    
+
+    border: none;
+    position: sticky;
+    left: 130px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+i.material-icons {
+
+    position: relative;
+    top: 8.5px;
+    left: 90px;
+    zoom: 1.4;
+    border: 1px solid;
+    border-color: rgb(221, 187, 62);
+}
+
+
+
+.column-1 {
+    height:350px;
+    position: relative;
+}
+
+.column-1-img{
+    width: 100%;
+    background-size: cover;
+}
+
+.column-1-section {
+    background-color: rgba(0, 0, 0, 0.801);
+    position: absolute;
+    top: 20px;
+    height: 280px;
+
+
+}
+
+.column-1-title {
+    z-index: 99;
+    color : white;
+    text-align: left;
+    font-size: 38px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.column-1-description {
+    color : white;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    position: relative;
+    top: 120px;
+}
+
+.column-1-btn {
+    z-index: 99;
+    background-color:rgb(221, 187, 62);
+    left: 10px;
+    position: relative;
+    top: 120px;
+    padding: 15px;
+    border: none;
+}
+
+.column-1-btn:hover {
+
+    background-color:rgb(255, 205, 3);
+}
+
+.column-2 {
+
+
+    background-color: #ffdc7be6;
+    padding: 20px;
+}
+
+.column-2-img, .column-3-img, .column-4-img, .column-5-img, .column-6-img, .column-7-img, .column-9-img, .column-10-img{
+    width: 100%;
+    background-size: cover;
+
+}
+
+.column-2-h2, .column-3-h2, .column-4-h2, .column-5-h2, .column-6-h2, .column-7-h2, .column-9-h2, .column-10-h2{
+    font-size: 28px;
+}
+
+.column-3, .column-4, .column-5, .column-6, .column-7, .column-9, .column-10{
+    background-color: #ffdc7be6;
+    margin: 10px;
+}
+
+.column-3-section, .column-4-section, .column-5-section, .column-6-section, .column-7-section, .column-9-section, .column-10-section{
+    padding: 20px;
+}
+
+.column-3-btn, .column-4-btn, .column-5-btn, .column-6-btn, .column-7-btn, .column-9-btn, .column-10-btn {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
+.column-8 {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+
+.column-8-img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.column-8-title {
+    color : white;
+    text-align: left;
+    font-size: 38px;
+    position: relative;
+    bottom: 300px;
+    margin-left: 10px;
+}
+
+.column-8-description {
+    color : white;
+
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    bottom: 320px;
+    margin-left: 10px;
+
+}
+
+.column-8-btn {
+    background-color:rgba(36, 36, 36, 0.689);
+    color: white;
+    margin-left: 10px;
+    justify-content: center;
+    position: relative;
+
+    bottom: 300px;
+    padding: 20px;
+    border-color:rgb(221, 187, 62);
+}
+
+
+input[type=submit] {
+
+    background-color: #1b1c1c;
+    color: rgb(239, 209, 14);
+    padding: 12px 20px;
+    border: none;
+}
+
+
+
+.form input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+
+table {
+
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(1) {
+
+    background-color: rgb(254, 237, 121);
+}
+  
+td, th {
+
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+.ftl-grid {
+    margin: 10px;
+}
+
+footer {
+    background-color:rgb(20, 20, 20);
+
+    color:rgb(221, 187, 62);
+    padding: 10px;
+}
+
